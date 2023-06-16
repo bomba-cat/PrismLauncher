@@ -43,7 +43,6 @@ jobs:
           mv PrismLauncher-Linux-Qt6*/PrismLauncher.tar.gz PrismLauncher-Linux-Qt6-${{ env.VERSION }}.tar.gz          
           mv PrismLauncher-Linux-Portable*/PrismLauncher-portable.tar.gz PrismLauncher-Linux-Portable-${{ env.VERSION }}.tar.gz
           mv PrismLauncher-Linux*/PrismLauncher.tar.gz PrismLauncher-Linux-${{ env.VERSION }}.tar.gz
-          mv PrismLauncher-*.AppImage/PrismLauncher-*.AppImage PrismLauncher-Linux-${{ env.VERSION }}-x86_64.AppImage
           mv PrismLauncher-macOS-Legacy*/PrismLauncher.tar.gz PrismLauncher-macOS-Legacy-${{ env.VERSION }}.tar.gz
           mv PrismLauncher-macOS*/PrismLauncher.tar.gz PrismLauncher-macOS-${{ env.VERSION }}.tar.gz
 
@@ -88,7 +87,6 @@ jobs:
           files: |
             PrismLauncher-Linux-${{ env.VERSION }}.tar.gz
             PrismLauncher-Linux-Portable-${{ env.VERSION }}.tar.gz
-            PrismLauncher-Linux-${{ env.VERSION }}-x86_64.AppImage
             PrismLauncher-Windows-MinGW-w64-${{ env.VERSION }}.zip
             PrismLauncher-Windows-MinGW-w64-Portable-${{ env.VERSION }}.zip
             PrismLauncher-Windows-MinGW-w64-Setup-${{ env.VERSION }}.exe
